@@ -1,0 +1,5 @@
+**/.web
+**/__pycache__/
+**/venv/
+**/pynecone.db
+**/.DS_Store
