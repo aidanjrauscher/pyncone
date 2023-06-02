@@ -19,6 +19,8 @@ RUN pip install wheel \
 FROM base as runtime
 
 RUN apt-get update && apt-get install -y \
+    gcc \
+    python3-dev \
     curl \
     && curl -fsSL https://deb.nodesource.com/setup_19.x | bash - \
     && apt-get update && apt-get install -y \
